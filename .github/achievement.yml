@@ -1,0 +1,19 @@
+name: "🚀 Achievement Checklist"
+about: "Use this checklist to track steps for a GitHub achievement"
+title: "[Achievement] – YOUR_NAME"
+labels: ["achievement", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Checklist for **${{issue.title}}**
+  - type: checkboxes
+    attributes:
+      options:
+        - label: "☐ Step 1: …"
+        - label: "☐ Step 2: …"
+        - label: "☐ Step 3: Screenshot attached"
+  - type: input
+    attributes:
+      label: "Attach your badge screenshot"
+      description: "Drag & drop here"

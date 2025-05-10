@@ -1,0 +1,9 @@
+title: GitHub Achievements Guide
+plugins:
+  - jekyll‐feed
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
