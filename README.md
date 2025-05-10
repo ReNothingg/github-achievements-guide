@@ -1,63 +1,86 @@
-<!-- верх: переключение языков -->
-<p align="center">
-  <a href="#english-version">English</a> | <a href="#русская-версия">Русский</a>
-</p>
+## 📘 GitHub Achievements Guide
+
+<p align="center">  
+  <a href="en/README.md">English</a> | <a href="ru/README.md">Русский</a>  
+</p>  
 
 ---
 
-## <a name="english-version"></a>GitHub Achievements Guide (for Beginners)
+### 🚀 Что это?
 
-Welcome to your step‑by‑step guide to unlock every GitHub achievement! 🎉  
-Follow issues in this repo, complete the checklist, and share your progress.
+Этот репозиторий — интерактивный справочник для **новичков** по получению всех ачивок GitHub.
 
-### How to use this repo  
-1. **Choose your language** above.  
-2. Go to **Issues → New issue**, select the “Achievement Checklist” template.  
-3. Follow the steps in the checklist to earn the badge.  
-4. When done, paste your badge screenshot in the issue comment.  
-
-### Achievements List  
-| Icon | Name                | How to get (Bronze→Silver→Gold)                       |
-|:----:|:--------------------|:------------------------------------------------------|
-| ![Starstruck][star] | Starstruck | 16 ★ → 128 ★ → 512 ★ → 4096 ★ :contentReference[oaicite:0]{index=0} |
-| ![Pull Shark][shark] | Pull Shark | 2 PR merged → 16 → 128 → 1024 :contentReference[oaicite:1]{index=1} |
-| ![Quickdraw][quick] | Quickdraw | close issue/PR within 5 min :contentReference[oaicite:2]{index=2} |
-| ![Pair Extraordinaire][pair] | Pair Extraordinaire | 10 → 24 → 48 co‑authored PRs :contentReference[oaicite:3]{index=3} |
-| ![Galaxy Brain][brain] | Galaxy Brain | 2 → 8 → 16 → 32 accepted discussion answers :contentReference[oaicite:4]{index=4} |
-| ![YOLO][yolo] | YOLO | merge PR without review :contentReference[oaicite:5]{index=5} |
-| ![Open Sourcerer][sourcerer] | Open Sourcerer | (unreleased) :contentReference[oaicite:6]{index=6} |
-| ![Heart On Your Sleeve][heart] | Heart On Your Sleeve | (unreleased) :contentReference[oaicite:7]{index=7} |
-| ![Arctic Code Vault][arctic] | Arctic Code Vault Contributor | contributed to 2020 Archive Program repo :contentReference[oaicite:8]{index=8} |
-| ![Mars 2020][mars] | Mars 2020 Contributor | contributed to mission repo :contentReference[oaicite:9]{index=9} |
-| ![Sponsor][sponsor] | Public Sponsor | sponsored an open‑source project :contentReference[oaicite:10]{index=10} |
-
-<!-- images refs -->
-[star]: images/starstruck.png
-[shark]: images/pullshark.png
-[quick]: images/quickdraw.png
-[pair]: images/pair.png
-[brain]: images/galaxy.png
-[yolo]: images/yolo.png
-[sourcerer]: images/sourcerer.png
-[heart]: images/heart.png
-[arctic]: images/arctic.png
-[mars]: images/mars.png
-[sponsor]: images/sponsor.png
+* Пошаговые инструкции
+* Шаблоны Issues‑чеклистов
+* Красивые иконки и примеры
+* Поддержка EN ↔ RU
 
 ---
 
-## <a name="русская-версия"></a>Руководство по достижениям GitHub (для новичков)
+### 🎯 Цели
 
-Добро пожаловать! Здесь пошагово показано, как получить каждое достижение на GitHub. 🎉  
-1. Выберите язык (ENG/RU) выше.  
-2. Перейдите в **Issues → New issue**, выберите шаблон «Achievement Checklist».  
-3. Выполните пункты чеклиста и прикрепите скриншот бейджа.  
+1. Обучить базовым возможностям GitHub через игровые достижения.
+2. Дать готовые Issue‑шаблоны для практики.
+3. Обеспечить простоту участия и вкладов.
 
-### Список достижений  
-| Иконка | Название               | Как получить                              |
-|:------:|:-----------------------|:-------------------------------------------|
-| ![Starstruck][star] | Starstruck | 16 ★ → 128 ★ → 512 ★ → 4096 ★ :contentReference[oaicite:11]{index=11} |
-| ![Pull Shark][shark] | Pull Shark | 2 PR → 16 → 128 → 1024 :contentReference[oaicite:12]{index=12} |
-| … и т. д. |                      |                                           |
+---
 
-(далее как в англ. версии)  
+## 🗂 Структура проекта
+
+| Путь                      | Описание                                        |
+| :------------------------ | :---------------------------------------------- |
+| `README.md`               | Главный файл с обзором и переключателем языков. |
+| `en/README.md`            | Полное руководство на английском.               |
+| `ru/README.md`            | Полное руководство на русском.                  |
+| `images/`                 | Иконки достижений (PNG).                        |
+| `.github/ISSUE_TEMPLATE/` | Шаблон Issue‑чеклиста для каждого достижения.   |
+| `CONTRIBUTING.md`         | Инструкция по внесению изменений.               |
+| `_config.yml`             | Настройки GitHub Pages (Jekyll).                |
+
+---
+
+## 📖 Содержание главного README
+
+1. [Что это?](#Что-это)
+2. [Цели](#Цели)
+3. [Структура проекта](#Структура-проекта)
+4. [Как начать](#Как-начать)
+5. [Контрибьюция](#Контрибьюция)
+6. [Лицензия](#Лицензия)
+
+---
+
+## ⚡ Как начать
+
+1. **Клонируйте репозиторий**
+
+   ```bash
+   git clone https://github.com/USERNAME/GitHub-Achievements-Guide.git
+   ```
+2. **Выберите язык**: перейдите в `en/README.md` или `ru/README.md`.
+3. **Откройте Issue**: нажмите **Issues → New issue** и выберите шаблон **Achievement Checklist**.
+4. **Выполните чеклист** и добавьте скриншот бейджа.
+5. **Закройте Issue** — поздравляем, вы получили достижение! 🎉
+
+---
+
+## 🤝 Контрибьюция
+
+Мы приветствуем помощь новичков!
+
+* Открывайте Issue по шаблону для каждого достижения.
+* Предлагайте правки в описаниях или добавляйте новые примеры.
+* Создавайте pull‑request’ы: мы быстро их просмотрим и замержим.
+
+Читать подробности: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
+## 📜 Лицензия
+
+Этот проект распространяется под лицензией MIT.
+See [LICENSE](LICENSE) for details.
+
+---
+
+<p align="center">Happy Achieving! 🏅</p>
